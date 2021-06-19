@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("./doctors.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sana-serif;
+}
+
+.infobox{
+    width: 61%;
+    /*height: 700px;*/
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 300px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    text-decoration: underline;
+}
+
+.infobox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.infobox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.infobox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.infobox input[type="button"]{
+    border: none;
+    outline: none;
+    background: #46a1eb;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 20px;
+
+}
+
+.infobox input[type="button"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
